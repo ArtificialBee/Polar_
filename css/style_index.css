@@ -1,0 +1,50 @@
+/*Includin Google Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #0b032d;
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin: 0 40px;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+  font-family: "Sonsie One", cursive;
+  font-size: 2rem;
+}
+
+.navigation {
+  width: 35%;
+  text-align: center;
+  margin: 0 40px 0 0;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Ubuntu", sans-serif;
+}

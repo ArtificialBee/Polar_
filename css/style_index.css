@@ -61,7 +61,7 @@ ul li a {
   align-items: center;
 }
 .first_content h1 {
-  height: 95%;
+  height: 70%;
   width: 98%;
   display: flex;
   justify-content: space-around;
@@ -83,14 +83,14 @@ ul li a {
 /*Styling for second content*/
 .second_content {
   background-color: white;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
 
-.second_content h1 {
+.sc_heading {
   margin: 60px 0 0 0;
   text-align: center;
   font-size: 2.5rem;
@@ -159,5 +159,49 @@ ul li a {
 .other_products:hover {
   background-color: #0b032d;
   color: white;
-  box-shadow: 0 0 15px black;
+}
+
+/*Styling for payment*/
+.payment {
+  height: 100vh;
+  background-color: #7ac4f1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.methods {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: -20px 0 0 0;
+  width: 60%;
+}
+
+.cash_pay,
+.card_pay,
+.delivery_pay {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+  transition: all 0.3s ease-in;
+}
+
+.cash_pay:hover,
+.card_pay:hover,
+.delivery_pay:hover {
+  background-color: rgba(255, 255, 255, 0.479);
+}
+
+.cash_pay img,
+.card_pay img,
+.delivery_pay img {
+  height: 100px;
+  width: 100px;
 }

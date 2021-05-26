@@ -12,7 +12,6 @@
 /*Styling navbar*/
 .navbar {
   background-color: #0b032d;
-  width: 100vw;
   height: 60px;
   display: flex;
   flex-direction: row;
@@ -52,7 +51,7 @@ ul li a {
 
 /*Stiyling first content of home page*/
 .first_content {
-  height: 80vh;
+  height: 100vh;
   background-image: url("/images/background1.jpg");
   background-position: center;
   background-size: cover;
@@ -62,12 +61,6 @@ ul li a {
   align-items: center;
 }
 .first_content h1 {
-  /* background: rgb(255, 255, 255); */
-  background: linear-gradient(
-    0deg,
-    rgba(255, 255, 255, 0.039653361344537785) 0%,
-    rgba(249, 249, 249, 0.7) 100%
-  );
   height: 95%;
   width: 98%;
   display: flex;
@@ -82,7 +75,7 @@ ul li a {
 
 .logo2 {
   font-family: "Sonsie One", cursive;
-  padding: 0 100px;
+  padding: 0 120px;
   color: #0b032d;
   font-size: 5rem;
 }
@@ -90,7 +83,7 @@ ul li a {
 /*Styling for second content*/
 .second_content {
   background-color: white;
-  height: 80vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -122,19 +115,49 @@ ul li a {
   justify-content: space-around;
   align-items: center;
   box-shadow: -2px 5px 9px grey;
+  transition: all 0.3s;
 }
 
-.gloves img {
-  height: 120px;
-  width: 120px;
+.gloves:hover,
+.hat:hover,
+.skis:hover {
+  background-color: #cfdee7;
+  transition: all 0.3s;
 }
 
-.hat img {
-  height: 120px;
-  width: 120px;
-}
-
+.gloves img,
+.hat img,
 .skis img {
   height: 120px;
   width: 120px;
+}
+
+.buy_button {
+  width: 65%;
+  height: 15%;
+  background-color: #7ac4f1;
+  transition: all 0.5s;
+  border: 0px;
+  font-size: 1rem;
+}
+
+.buy_button:hover {
+  background-color: #0b032d;
+  color: white;
+  transition: all 0.5s;
+}
+
+.other_products {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  border: 2px solid #0b032d;
+  transition: all 0.3s ease-in;
+  font-size: 1.1rem;
+}
+
+.other_products:hover {
+  background-color: #0b032d;
+  color: white;
+  box-shadow: 0 0 15px black;
 }

@@ -9,6 +9,15 @@
   font-family: "Ubuntu", sans-serif;
 }
 
+.top_arr {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
 /*Styling navbar*/
 .navbar {
   background-color: #0b032d;
@@ -204,4 +213,10 @@ ul li a {
 .delivery_pay img {
   height: 100px;
   width: 100px;
+}
+
+.footer {
+  height: 200px;
+  width: 100vw;
+  background-color: black;
 }
